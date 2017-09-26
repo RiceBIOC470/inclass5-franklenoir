@@ -1,3 +1,5 @@
+%AW: looks good. 1/1. See comment below. 
+
 %Inclass assignment 5. 
 
 % Walter Frank Lenoir
@@ -21,7 +23,7 @@ img = imread('test.png');
 test = imgstretch2(img,val);
 
 %c) 
-
+%AW: this works but try to only put the needed code inside the condition to avoid writing repetitive code. 
 val = 0.4;
 img = imread('test.png');
 test = imgstretch3(img,val);
